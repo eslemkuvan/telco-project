@@ -167,8 +167,8 @@ ORDER BY c.CUSTOMER_ID;
 This query identifies customers who have exhausted all of their package limits.
 I compared data, minute, and SMS usage values with their corresponding limits.
 Only customers who meet all three conditions are included in the result.
-*/
-/*The query returned no rows, which indicates that no customer in the dataset consumed all three limits completely at the same time.
+
+The query returned no rows, which indicates that no customer in the dataset consumed all three limits completely at the same time.
 */
 SELECT
     c.CUSTOMER_ID,
